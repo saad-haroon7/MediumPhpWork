@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+header{
+    width: 98%;
+    padding: 5px 10px 0;
+    position: relative;
+    text-align: left;
+    background-color: whitesmoke;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:link, header a:hover, header a:visited, header a:active {
+    text-decoration: none;
+}
+
+header ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    font: normal 16px Courier;
+}
+
+header ul, header li{
+    display: inline;
+}
+header li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+i{
+    color: blue;
+}
+#reportForm {
+    float: right;
+}
+.center {
+    padding: 10px 25px 10px;
+    margin: 50px auto;
+    width: 400px;
+    height: max-content;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.loginForm input[type='text'], .loginForm input[type='password'], input[type='time'], input[type='date']{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid gray;
+    border-left: 5px solid gray;
+    border-radius: 7px;
+    font: normal 12px Courier;
+
+}
+.loginForm input[type='submit'], .addEmployeeForm input[type='submit'], .attendanceForm input[type='submit'] {
+    -webkit-appearance: none;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    font: normal 14px Courier;
+}
+.addEmployeeForm input[type='submit'] {
+    width: 300px;
+}
+.addEmployeeForm input[type='tel'], .addEmployeeForm input[type='text'],
+.addEmployeeForm input[type='email'], .addEmployeeForm input[type='file'], select {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-left: 5px solid gray;
+    border-radius: 7px;
+    width: 300px;
+    font: normal 12px Courier;
+    background-color: white;
+}
+select {
+    width: 328px;
+}
+.centerEmpTable{
+    width: 75%;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+}
+.centerEmpTable a{
+    text-decoration: none;
+    color: black;
+}
+.centerEmpTable .editBtn, .centerEmpTable .deleteBtn{
+    background-color: blue;
+    color: white;
+    -webkit-appearance: none;
+    padding: 5px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 7px;
+}
+.centerEmpTable .deleteBtn{
+    background-color: red;
+}
+.showEmployees {
+    margin: 2px 2px;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.showEmployees th, .showEmployees td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.showEmployees th{
+    background-color: blue;
+    color: white;
+}
+.showEmployees td{
+    font: normal 14px Courier;
+}
+.showEmployees tr:nth-child(even){background-color: rgba(0,7,255,0.18);}
+.showEmployees tr:hover {background-color: #ddd;}
+.error {
+    color: red;
+}
+label{
+    font-family: Courier;
+}
+
+.attendanceDiv {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.attendanceField {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+}
+
+.attendanceField label {
+    width: 20%;
+    display: inline-block;
+}
+.attendanceField input {
+    font-size: large;
+    width: 50%;
+ }
+.attendanceField i {
+    width: 15%;
+    margin-left: 20px;
+}
+.changed {
+    color: white;
+    background-color: gray;
+}
+

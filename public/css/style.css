@@ -1,0 +1,29 @@
+.center {
+    padding: 35px 25px 0;
+    margin: 100px auto;
+    width: 400px;
+    height: 200px;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.loginForm input[type='text'], .loginForm input[type='password']{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-left: 5px solid gray;
+    border-radius: 7px;
+    font: normal 12px Courier;
+
+}
+.loginForm input[type='submit'] {
+    -webkit-appearance: none;
+    width: 171px;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    font: normal 14px Courier;
+}
